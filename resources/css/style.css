@@ -1,4 +1,5 @@
 /* ----- Blue Colors: #1e5182 #2588c9 ----- */
+/*background-color: rgb(37, 136, 201);*/
 /*  background-color: rgba(0, 0, 0, 0.2);*/
 
 /*------------------------------------------------------*/
@@ -35,12 +36,22 @@ html {
   margin: 10px;
 }
 
+/* ----- HEADINGS ----- */
+
+h2 {
+  color: #fff;
+  font-size: 80%;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+}
+
 /*------------------------------------------------------*/
 /*HEADER*/
 /*------------------------------------------------------*/
 
 .share-items {
-  background-color: rgb(37, 136, 201);
+  background-color: #1e5182;
   list-style: none;
   width: 100%;
   margin: auto 0;
@@ -60,3 +71,96 @@ html {
   display: block;
   text-decoration: none;
 }
+
+.branding {
+  background-color: #2588c9;
+  width: 100%;
+  margin: auto 0;
+}
+
+.logo {
+  height: 77px;
+  width: auto;
+  float: left;
+  padding-bottom: 10px
+  
+}
+
+.site-description {
+  padding-left: 87.5px;
+  margin: 20px auto 20px auto;
+}
+
+/*
+.site-navigation .menu li a {
+    color: #515659;
+    display: block;
+
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 1;
+    padding: 23px 19px;
+    text-decoration: none;
+}
+
+.menu {
+  float: right;
+  list-style: none;
+  padding-left: 87.5px;
+}
+*/
+
+.site-navigation {
+  background-color: #1e5182;
+  list-style: none;
+  width: 100%;
+  margin: auto 0;
+}
+
+.site-navigation ul {
+  float: right;
+}
+
+.site-navigation li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.site-navigation li a {
+  color: #515659;
+  display: block;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 23px 19px;
+  text-decoration: none;
+}
+
+/*===================================================================================*/
+/*
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), #000), url(img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #e67e22;
+}
+*/
