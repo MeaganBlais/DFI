@@ -1,0 +1,62 @@
+/* ----- Blue Colors: #1e5182 #2588c9 ----- */
+/*  background-color: rgba(0, 0, 0, 0.2);*/
+
+/*------------------------------------------------------*/
+/*BASIC SETUP*/
+/*------------------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  color: #555;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+/*------------------------------------------------------*/
+/*REUSABLE COMPONENTS*/
+/*------------------------------------------------------*/
+
+.row {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* ----- ICONS ----- */
+.icon-sm {
+  font-size: 80%;
+  margin: 10px;
+}
+
+/*------------------------------------------------------*/
+/*HEADER*/
+/*------------------------------------------------------*/
+
+.share-items {
+  background-color: rgb(37, 136, 201);
+  list-style: none;
+  width: 100%;
+  margin: auto 0;
+}
+
+.share-items ul {
+  float: right;
+}
+
+.share-items li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.share-items li a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
