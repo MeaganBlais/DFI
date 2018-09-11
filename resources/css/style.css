@@ -46,6 +46,13 @@ h2 {
   word-spacing: 1px;
 }
 
+
+/* ----- PARAGRAPHS ----- */
+
+P {
+  color: lightgray;
+}
+
 /*------------------------------------------------------*/
 /*HEADER*/
 /*------------------------------------------------------*/
@@ -83,6 +90,14 @@ h2 {
   width: auto;
   float: left;
   padding-bottom: 10px
+}
+
+.logo-nav {
+  display: none;
+  height: 50px;
+  width: auto;
+  float: left;
+  padding: 5px 0;
   
 }
 
@@ -111,7 +126,7 @@ h2 {
 */
 
 .site-navigation {
-  background-color: #1e5182;
+  background-color: #fff;
   list-style: none;
   width: 100%;
   margin: auto 0;
@@ -126,15 +141,44 @@ h2 {
   margin-right: 10px;
 }
 
-.site-navigation li a {
+.site-navigation li a:link,
+.site-navigation li a:visited {
   color: #515659;
   display: block;
-  font-size: 15px;
+  font-size: 75%;
   text-transform: uppercase;
   line-height: 1;
-  padding: 23px 19px;
+  padding: 23px 15px;
   text-decoration: none;
+  
+  transition: border-bottom 0.2s;
 }
+
+.site-navigation li a:hover,
+.site-navigation li a:active {
+  color: #fff;
+  background-color: #bdbec0
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 2px 2px #efefef;
+  z-index: 9999;
+}
+
+.sticky .site-navigation li a:link,
+.sticky .site-navigation li a:visited {
+  color: #555;
+/*  padding: 8px 0;*/
+}
+
+.sticky .logo-nav { display: block }
+
+
 
 /*===================================================================================*/
 /*
