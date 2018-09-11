@@ -1,0 +1,46 @@
+/* Big tablet up to 1200px (width smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+  
+  .row { padding: 0 2%; }
+}
+
+/* Small tablet in portrait mode from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+  body { font-size: 18px; }
+  section { padding: 60px 0; }
+
+}
+
+/* Small phones to small tablets from 481px to 767px */
+@media only screen and (max-width: 767px) {
+  
+  .main-nav {display: none; }
+  .mobile-nav-icon { display: inline-block; }
+  
+  .site-navigation ul {
+    float: left;
+  }
+  
+  .site-navigation li {
+    display: block;
+    border: 0;
+  }
+  
+  .site-navigation li a:link, 
+  .site-navigation li a:visited {
+    padding: 5px 0;
+    font-size: 100%
+  }
+  
+  .sticky .site-navigation { margin-top: 10px; }
+
+  .sticky .site-navigation li a:link,
+  .sticky .site-navigation li a:visited { padding: 10px 0; }
+
+  }
+
+
+/* Small phones from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  
+}
