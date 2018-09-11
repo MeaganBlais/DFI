@@ -39,6 +39,10 @@ html {
 /* ----- HEADINGS ----- */
 
 h2 {
+  border-bottom: 2px solid #555
+}
+
+h6 {
   color: #fff;
   font-size: 80%;
   font-weight: 300;
@@ -192,3 +196,22 @@ P {
 }
 
 .sticky .logo-nav { display: block }
+
+/*------------------------------------------------------*/
+/* SECTIONS */
+/*------------------------------------------------------*/
+
+.main-section .row {
+  background color: #b2b2b2;
+}
+
+.news-events {
+  padding: 0 30px;
+}
+
+.news-events .box {
+  border: 1px solid #555;
+  padding: 1%;
+}
+
+
